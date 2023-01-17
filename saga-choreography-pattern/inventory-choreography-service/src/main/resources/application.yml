@@ -1,0 +1,13 @@
+spring.cloud:
+  function:
+    definition: inventoryProcessor
+  stream:
+    bindings:
+      inventoryProcessor-in-0:
+        destination: order-event
+      inventoryProcessor-out-0:
+        destination: inventory-event
+    kafka:
+      streams:
+        binder:
+          replication-factor: 1

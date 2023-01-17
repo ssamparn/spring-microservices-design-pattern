@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-orchestration-dto" />
+        <module name="order-choreography-service" />
+        <module name="payment-choreography-service" />
+        <module name="inventory-choreography-service" />
+        <module name="common-choreography-dto" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common-choreography-dto" options="-parameters" />
+      <module name="common-orchestration-dto" options="-parameters" />
+      <module name="inventory-choreography-service" options="-parameters" />
+      <module name="order-choreography-service" options="-parameters" />
+      <module name="payment-choreography-service" options="-parameters" />
+      <module name="saga-choreography-pattern" options="-parameters" />
+      <module name="saga-orchestration-pattern" options="-parameters" />
+    </option>
+  </component>
+</project>
