@@ -1,0 +1,23 @@
+server:
+  port: 8080
+---
+spring:
+  jpa:
+    defer-datasource-initialization: true
+  r2dbc:
+    url: r2dbc:h2:mem:///purchase_order;DB_CLOSE_DELAY=-1
+    username: sa
+    password: sa
+  cloud:
+    function:
+      definition: supplier;consumer
+    stream:
+      bindings:
+        supplier-out-0:
+          destination: order-created
+        consumer-in-0:
+          destination: order-updated
+      kafka:
+        streams:
+          binder:
+            replication-factor: 1

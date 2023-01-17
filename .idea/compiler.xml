@@ -7,11 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="common-orchestration-dto" />
+        <module name="order-orchestrator" />
         <module name="order-choreography-service" />
+        <module name="payment-orchestration-service" />
         <module name="payment-choreography-service" />
-        <module name="inventory-choreography-service" />
+        <module name="inventory-orchestration-service" />
         <module name="common-choreography-dto" />
+        <module name="common-orchestration-dto" />
+        <module name="order-orchestration-service" />
+        <module name="inventory-choreography-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />
@@ -21,8 +25,12 @@
       <module name="common-choreography-dto" options="-parameters" />
       <module name="common-orchestration-dto" options="-parameters" />
       <module name="inventory-choreography-service" options="-parameters" />
+      <module name="inventory-orchestration-service" options="-parameters" />
       <module name="order-choreography-service" options="-parameters" />
+      <module name="order-orchestration-service" options="-parameters" />
+      <module name="order-orchestrator" options="-parameters" />
       <module name="payment-choreography-service" options="-parameters" />
+      <module name="payment-orchestration-service" options="-parameters" />
       <module name="saga-choreography-pattern" options="-parameters" />
       <module name="saga-orchestration-pattern" options="-parameters" />
     </option>

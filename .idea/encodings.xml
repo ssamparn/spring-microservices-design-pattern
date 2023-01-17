@@ -8,6 +8,10 @@
     <file url="file://$PROJECT_DIR$/saga-choreography-pattern/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/saga-choreography-pattern/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/saga-orchestration-pattern/common-orchestration-dto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/saga-orchestration-pattern/inventory-orchestration-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/saga-orchestration-pattern/order-orchestration-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/saga-orchestration-pattern/order-orchestrator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/saga-orchestration-pattern/payment-orchestration-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/saga-orchestration-pattern/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/saga-orchestration-pattern/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
