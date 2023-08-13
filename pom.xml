@@ -11,13 +11,14 @@
   <name>spring-microservices-design-patterns</name>
 
   <properties>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
+      <maven.compiler.source>17</maven.compiler.source>
+      <maven.compiler.target>17</maven.compiler.target>
   </properties>
 
   <modules>
-    <module>saga-choreography-pattern</module>
-    <module>saga-orchestration-pattern</module>
+      <module>saga-choreography-pattern</module>
+      <module>saga-orchestration-pattern</module>
+      <module>hexagonal-architecture-pattern</module>
   </modules>
 
 </project>

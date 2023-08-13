@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.1.2</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.design.patterns</groupId>
+    <artifactId>hexagonal-architecture-pattern</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>Library Micro Service Parent</name>
+
+    <properties>
+        <java.version>17</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <lombok.version>1.18.28</lombok.version>
+    </properties>
+
+    <modules>
+        <module>library-application</module>
+        <module>library-domain</module>
+        <module>library-infrastructure</module>
+        <module>library-launcher</module>
+    </modules>
+</project>
