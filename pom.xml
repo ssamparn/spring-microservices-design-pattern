@@ -19,6 +19,7 @@
       <module>saga-choreography-pattern</module>
       <module>saga-orchestration-pattern</module>
       <module>hexagonal-architecture-pattern</module>
+      <module>hexagonal-architecture-pattern-second-approach</module>
   </modules>
 
 </project>

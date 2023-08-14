@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    com:
+      example:
+        hexagonalarchitecturepatternsecondapproach: INFO
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: sa
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console

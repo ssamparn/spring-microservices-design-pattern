@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="payment-orchestration-service" />
         <module name="common-choreography-dto" />
+        <module name="hexagonal-architecture-pattern-second-approach" />
         <module name="library-infrastructure" />
         <module name="inventory-choreography-service" />
         <module name="order-orchestrator" />
@@ -28,6 +29,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common-choreography-dto" options="-parameters" />
       <module name="common-orchestration-dto" options="-parameters" />
+      <module name="hexagonal-architecture-pattern-second-approach" options="-parameters" />
       <module name="inventory-choreography-service" options="-parameters" />
       <module name="inventory-orchestration-service" options="-parameters" />
       <module name="library-application" options="-parameters" />

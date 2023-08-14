@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/hexagonal-architecture-pattern/library-application/pom.xml" />
         <option value="$PROJECT_DIR$/hexagonal-architecture-pattern/library-infrastructure/pom.xml" />
         <option value="$PROJECT_DIR$/hexagonal-architecture-pattern/library-launcher/pom.xml" />
+        <option value="$PROJECT_DIR$/hexagonal-architecture-pattern-second-approach/pom.xml" />
       </list>
     </option>
   </component>
